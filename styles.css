@@ -1,0 +1,44 @@
+/* Tüm header için flex düzeni */
+header {
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border-bottom: 1px solid black;
+}
+
+/* Logo alanı */
+.logo {
+    font-size: 24px;
+}
+
+/* Nav menüsü */
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* Address kısmı */
+address ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+address a {
+    text-decoration: none;
+    color: black;
+}
